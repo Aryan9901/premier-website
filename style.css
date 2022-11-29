@@ -638,3 +638,35 @@ html {
 	font-weight: 500;
 	font-size: 2vw;
 }
+
+#cont2 #l3 #t3 svg {
+	display: none;
+	fill: currentColor;
+	height: auto;
+	max-width: 66vmin;
+	transform-origin: center;
+	width: 66%;
+}
+/* responsive design code
+ */
+
+@media (max-width: 755px) {
+	#second #cont2 #l3 #t3 img {
+		display: none;
+	}
+	#cont2 #l3 #t3 svg {
+		display: initial;
+	}
+}
+@media (max-width: 570px) {
+	#second #cont2 {
+		display: initial;
+	}
+	#second #cont2 #r3 {
+		width: 100%;
+	}
+	#second #cont2 #l3 {
+		display: none;
+	}
+}
+
